@@ -10,6 +10,9 @@ namespace Generics
     {
         static void Main(string[] args)
         {
+            var number = new Nullable<int>();
+            Console.WriteLine("Has Value ? " + number.HasValue);
+            Console.WriteLine("Value: " + number.GetValueOrDefault());
         }
     }
 }
