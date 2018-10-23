@@ -2,7 +2,7 @@
 {
     public class Nullable<T> where T : struct
     {
-        private object _value;
+        private readonly object _value;
         public Nullable()
         {
 
